@@ -50,7 +50,7 @@ app.post('/chat', async (req, res) => {
     console.log(`Prompt for ${playerName}: ${prompt}`);
 
     // 调用 ChatGPT API
-    const OPENAI_API_KEY = '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';
+    const OPENAI_API_KEY = '';
     const response = await axios.post('https://api.openai.com/v1/engines/davinci/completions', {
         prompt: prompt,
         max_tokens: 50,
