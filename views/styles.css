@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: black;
+}
+
+.headline {
+    background-color: black;
+    min-width: 500px;
+}
+
+.head {
+    background-color: rgba(13, 1, 89, 0.889);
+    color:aliceblue;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.parts {
+    background-color: black;
+    display: flex;
+    justify-content: space-around; /* 使五个小人之间有等距离的间隔 */
+    padding: 20px 0; /* 上下增加一些间距 */
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+    color: white;
+    font-size: 24px;
+    text-align: center; 
+    margin: 0 10px; /* 左右增加一些间距 */
+    padding: 10px;
+    width: 150px; /* 设置固定宽度 */
+    border-radius: 20px;
+    box-sizing: border-box; /* 使宽度包括内边距和边框 */
+}
+
+.one img,
+.two img,
+.three img,
+.four img,
+.five img {
+    width: 100%; /* 图片宽度为100%以适应容器 */
+    height: auto; /* 保持图片的纵横比 */
+    border-radius: 20px; /* 为图片添加圆角 */
+}
+
+/* 按钮出现在界面最下方最中央，单独一行 */
+.Button {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.start {
+    background-color: rgba(13, 1, 89, 0.889);
+    color:aliceblue;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.chat {
+    font-size: 16px;
+}

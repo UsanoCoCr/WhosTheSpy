@@ -30,5 +30,14 @@ pip install openai
 ```
 WhosTheSpy
 ├── README.md
-├── views/        # 网页可视化（本地启动）
+├── views/         # 网页可视化（本地启动）
+├── ├── index.html # 程序运行界面
+├── ├── styles.css # 主页格式文件
+├── ├── script.js  # 主页脚本文件
+├── ├── photos/    # 主页图片
+├── ├── ├── ...
+├── index.js       # 主程序
+├── package.json   # 项目信息
+├── package-lock.json
+├── ...
 ```
